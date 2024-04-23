@@ -41,8 +41,7 @@ Nuestro rol es analizar en profundidad los datos otorgados para mejorar asi la c
 Los datos entregados para trabajar fue 1 que contenia dos hojas de calculo en un formato XLSX.
 
 * "homicidos.xlsx"
-
-- Datasets entegados: [Enlace de los datasets](https://docs.google.com/spreadsheets/d/1nq00jGIZHQ1RLSET43zKnUsMsoFb-pBg/edit#gid=1625530738)
+> * Datasets entegados: [Enlace de los datasets](https://docs.google.com/spreadsheets/d/1nq00jGIZHQ1RLSET43zKnUsMsoFb-pBg/edit#gid=1625530738)
 
 
 ## **`Propuesta de trabajo`** <a name="propuesta"></a>
@@ -81,6 +80,11 @@ En el siguiente gráfico podremos observar la cantidad de víctimas totales por 
 
 ## **`Conclusión`** <a name="conclusión"></a>
 
+* Dado que observamos una concentracion de siniestros en ciertos meses del año, se podria implementar una mayor vigilancia y concientizacion durante estos periodos. Esto podria incluir campañas de seguridad vial y un refuerzo policial en las calles que presentan un mayor numero de accidentes.
+* Pensando que la mayoria de los involucrados se encuentran en el rango de edad entre 20 y 40 años, se podrian crear programas de educacion vial dirigidos a este grupo. Estos programas podrian centrarse en concientizar sobre los riesgos de conducir bajo los efectos del alcohol, el exceso de velocidad y otras conductas peligrosas.
+* Dado que observamos una distribucion desigual entre diferentes comunas de la ciudad, se podria priorizar la implementacion de medidas sobre seguridad vial en las comunas con un mayor numero de accidentes. Esto podria incluir la mejora de la infraestructura vial, como la de mas señalizaciones y semaforos.
+* Dado que las motocicletas son el tipo de vehiculo mas comunmente involucrado en siniestros, se podrian implementar medidas especificas para mejorar la seguridad de los motociclistas, como campañas sobre el uso del casco y el respeto de las normas de transito.
+
 
 ## **`Herramientas`** <a name="herramientas"></a>
 
@@ -88,6 +92,7 @@ En el siguiente gráfico podremos observar la cantidad de víctimas totales por 
 - Numpy
 - Matplotlib
 - Seaborn
+- Power BI
 
 ## **`Elaborador`** <a name="elaborador"></a>
 
