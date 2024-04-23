@@ -35,8 +35,7 @@ Nuestro rol es analizar en profundidad los datos otorgados para mejorar asi la c
 * Encontraran los dataset siendo dos archivos:
 > * *siniestros* : Datos limpios que se obtuvieron luego del proceso del ETL, con unión de hojas a traves de columnas y correción de tipográficos.
 * Encontraran la carpeta **src** donde estan las imagenes utilizadas en el presente REAME.
-* En archivo **ETL** encontraran toda la documentación y el paso a paso de lo que se trabajo hasta llegar a un CSV.
-* En archivo **EDA** encontrara toda la documentación y el paso a paso de lo analizado para trabajar en el dashboard.
+* En archivo **ETL** encontraran toda la documentación y el paso a paso de lo que se trabajo hasta llegar a un CSV. En archivo **EDA** encontrara toda la documentación y el paso a paso de lo analizado para trabajar en el dashboard.
 
 ## **`Información de los datos`** <a name="informacion"></a>
 Los datos entregados para trabajar fue 1 que contenia dos hojas de calculo en un formato XLSX.
@@ -48,7 +47,7 @@ Los datos entregados para trabajar fue 1 que contenia dos hojas de calculo en un
 
 ## **`Propuesta de trabajo`** <a name="propuesta"></a>
 
-En este repositorio se aborda la problemática de los siniestros viales en la ciudad de Buenos Aires durante el período entre los años 2016 y 2021. Se examinan los datos recopilados durante este período para identificar patrones, tendencias y desafíos asociados con los accidentes de tránsito en la ciudad.
+En este repositorio se aborda la problemática de los siniestros viales en la ciudad de Buenos Aires durante el período entre los años 2016 y 2021. Se examinan los datos recopilados durante los mismos para identificar patrones, tendencias y desafíos asociados con los accidentes de tránsito en la ciudad.
 
 Se espera obtener una comprensión detallada de la problemática de los siniestros viales en Buenos Aires, así como identificar áreas de intervención y desarrollar recomendaciones para mejorar la seguridad vial en la ciudad. Los resultados se presentarán a través de visualizaciones de datos que serán compartidos en este repositorio.
 
@@ -62,6 +61,19 @@ Se espera obtener una comprensión detallada de la problemática de los siniestr
 
 ## **`Resultado`** <a name="resultado"></a>
 
+<p align="center">
+  <img src='src/total_vict_comuna.png' height=300>
+</p>
+
+
+<p align="center">
+  <img src='src/total_vict_por_añoygenero.png' height=300>
+</p>
+
+
+<p align="center">
+  <img src='src/victimas_por_edad.png' height=300>
+</p>
 
 ## **`Conclusión`** <a name="conclusión"></a>
 
