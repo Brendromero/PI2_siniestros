@@ -61,6 +61,8 @@ Se espera obtener una comprensión detallada de la problemática de los siniestr
 
 ## **`Resultado`** <a name="resultado"></a>
 
+En el siguiente gráfico podremos observar el total de victimas durante el perídios 2016 y 2021. Obteniendo las comunas más afectadas en cuanto a siniestros nos referimos. Siendo la comuna 1 la más afectada entre las demás.
+
 <p align="center">
   <img src='src/total_vict_comuna.png' height=300>
 </p>
