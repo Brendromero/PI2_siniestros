@@ -61,17 +61,19 @@ Se espera obtener una comprensión detallada de la problemática de los siniestr
 
 ## **`Resultado`** <a name="resultado"></a>
 
-En el siguiente gráfico podremos observar el total de victimas durante el perídios 2016 y 2021. Obteniendo las comunas más afectadas en cuanto a siniestros nos referimos. Siendo la comuna 1 la más afectada entre las demás.
+En el siguiente gráfico podremos observar el total de víctimas durante el perídios 2016 y 2021. Obteniendo las comunas más afectadas en cuanto a siniestros nos referimos. Siendo la comuna 1 la más afectada entre las demás marcando por encima de 100 víctimas, la comuna 4 teniendo una breve diferencia con la comuna anterior teniendo víctimas por encima de 80 y por último la comuna 9 teniendo una ligera diferencia con la comuna 4.
 
 <p align="center">
   <img src='src/total_vict_comuna.png' height=300>
 </p>
 
+En el siguiente gráfico podremos observar el total de víctimas por año separandolo por género. En él vemos una gran diferencia si pensamos en el género que está más involucado en incidentes. El género masculino tiene una diferencia significativa en nuestros períodos de años más incidentes que el género femenino. Siendo el 2018 el que más incidentes tiene con este género, observando que en los posteriores años reducieron significativamente.
 
 <p align="center">
   <img src='src/total_vict_por_añoygenero.png' height=300>
 </p>
 
+En el siguiente gráfico podremos observar la cantidad de víctimas totales por edad. Observamos que las víctimas más comúnes se encuentran en el rango de 20 a 40 años por lo que podríamos pensar que los jóvenes adultos son más propensos a estar involucrados en incidentes.
 
 <p align="center">
   <img src='src/victimas_por_edad.png' height=300>
