@@ -50,6 +50,8 @@ Los datos entregados para trabajar fue 1 que contenia dos hojas de calculo en un
 
 En este repositorio se aborda la problemática de los siniestros viales en la ciudad de Buenos Aires durante el período entre los años 2016 y 2021. Se examinan los datos recopilados durante este período para identificar patrones, tendencias y desafíos asociados con los accidentes de tránsito en la ciudad.
 
+Se espera obtener una comprensión detallada de la problemática de los siniestros viales en Buenos Aires, así como identificar áreas de intervención y desarrollar recomendaciones para mejorar la seguridad vial en la ciudad. Los resultados se presentarán a través de visualizaciones de datos que serán compartidos en este repositorio.
+
 ## **`ETL - EDA`** <a name="etl-eda"></a>
 
 - Revisión, manejo y eliminación de nulos.
