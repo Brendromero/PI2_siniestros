@@ -7,16 +7,18 @@
 </p>
 
 ## **`Índice`**
-- [Índice](#índice)
-- [Introducción ](#introducción-)
-- [Contenido del repositorio ](#contenido-del-repositorio-)
-- [Información de los datos ](#información-de-los-datos-)
-- [Propuesta de trabajo ](#propuesta-de-trabajo-)
-- [ETL - EDA ](#etl---eda-)
-- [Resultado ](#resultado-)
-- [Conclusión](#conclusión-)
-- [Herramientas ](#herramientas-)
-- [Elaborador ](#elaborador-)
+- [  **PROYECTO INDIVIDUAL Nº2**  ](#--proyecto-individual-nº2--)
+- [ **Siniestros Viales de la ciudad de Buenos Aires** ](#-siniestros-viales-de-la-ciudad-de-buenos-aires-)
+  - [**`Índice`**](#índice)
+  - [**`Introducción`** ](#introducción-)
+  - [**`Contenido del repositorio`** ](#contenido-del-repositorio-)
+  - [**`Información de los datos`** ](#información-de-los-datos-)
+  - [**`Propuesta de trabajo`** ](#propuesta-de-trabajo-)
+  - [**`ETL - EDA`** ](#etl---eda-)
+  - [**`Resultado`** ](#resultado-)
+  - [**`Conclusión`** ](#conclusión-)
+  - [**`Herramientas`** ](#herramientas-)
+  - [**`Elaborador`** ](#elaborador-)
 
 
 ## **`Introducción`** <a name="introduccion"></a>
@@ -36,6 +38,7 @@ Nuestro rol es analizar en profundidad los datos otorgados para mejorar asi la c
 > * *siniestros* : Datos limpios que se obtuvieron luego del proceso del ETL, con unión de hojas a traves de columnas y correción de tipográficos.
 * Encontraran la carpeta **src** donde estan las imagenes utilizadas en el presente REAME.
 * En archivo **ETL** encontraran toda la documentación y el paso a paso de lo que se trabajo hasta llegar a un CSV. En archivo **EDA** encontrara toda la documentación y el paso a paso de lo analizado para trabajar en el dashboard.
+* **Dashboard** contiene el analisis de visualizacion y KPIs requeridos.
 
 ## **`Información de los datos`** <a name="informacion"></a>
 Los datos entregados para trabajar fue 1 que contenia dos hojas de calculo en un formato XLSX.
