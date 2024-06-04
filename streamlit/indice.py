@@ -4,14 +4,6 @@ import pandas as pd
 # Configura la aplicación para que se abra en la página predeterminada
 st.set_page_config(page_title="Mi aplicación Streamlit", layout="wide")
 
-# Título e introducción
-#st.title("Análisis de Siniestros Viales en Buenos Aires.")
-#st.title("<p style='text-align: center;'>Análisis de Siniestros Viales en Buenos Aires.</p>", unsafe_allow_html=True)
-#st.markdown("***")
-#st.write("¡Bienvenido a la App de Análisis de Accidentes de Tráfico! Esta aplicación proporciona información y análisis sobre los accidentes de tráfico.")
-#st.markdown("***")
-#st.image('https://github.com/Brendromero/PI2_siniestros/blob/main/src/BA.jpg?raw=true', caption='Fuente: Brenda Romero')
-
 
 # Define CSS style for centering
 style = """
@@ -68,53 +60,38 @@ st.markdown(f"""
 st.markdown("***")
 
 # Replace with your actual application filenames
-#app1_url = "http://localhost:8501/path/to/app1.py"  # Modify URL for app1
-#app2_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app2
-#app3_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app3
-#app4_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app4
+app1_url = "http://localhost:8501/path/to/app1.py"  # Modify URL for app1
+app2_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app2
+app3_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app3
+app4_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app4
 
-#html_string = f"""
-#<div style="display: flex; justify-content: center;">
-#    <a href="{app1_url}" target="_blank"><button>Button 1</button></a>
-#    <a href="{app2_url}" target="_blank"><button>Button 2</button></a>
-#    <a href="{app3_url}" target="_blank"><button>Button 3</button></a>
-#    <a href="{app4_url}" target="_blank"><button>Button 4</button></a>
-#</div>
-#<style>
-#    button {{ margin: 0 10px; }}
-#</style>
-#"""
+html_string = f"""
+<div style="display: flex; justify-content: center;">
+    <a href="{app1_url}" target="_blank"><button>Button 1</button></a>
+    <a href="{app2_url}" target="_blank"><button>Button 2</button></a>
+    <a href="{app3_url}" target="_blank"><button>Button 3</button></a>
+    <a href="{app4_url}" target="_blank"><button>Button 4</button></a>
+</div>
+<style>
+    button {{ margin: 0 10px; }}
+</style>
+"""
 
-#st.markdown(html_string, unsafe_allow_html=True)
+st.markdown(html_string, unsafe_allow_html=True)
 
 # Define functions to open other applications
-#def open_app1():
+def open_app1():
     # Implement logic to open or redirect to app1 (e.g., using webbrowser module)
-#    pass
+    pass
 
-#def open_app2():
+def open_app2():
     # Implement logic to open or redirect to app2 (e.g., using webbrowser module)
-#    pass
+    pass
 
-#def open_app3():
+def open_app3():
     # Implement logic to open or redirect to app3 (e.g., using webbrowser module)
-#    pass
+    pass
 
-#def open_app4():
+def open_app4():
     # Implement logic to open or redirect to app4 (e.g., using webbrowser module)
-#    pass
-
-#with st.container():
-#    col1, col2, col3, col4 = st.columns(4)
-
-#    with col1:
-#        st.button('Button 1', on_click=open_app1)
-
-#    with col2:
-#        st.button('Button 2', on_click=open_app2)
-        
-#    with col3:
-#        st.button('Button 1', on_click=open_app3)
-
-#    with col4:
-#        st.button('Button 2', on_click=open_app4)
+    pass
