@@ -59,40 +59,12 @@ st.markdown(f"""
 
 st.markdown("***")
 
-# Replace with your actual application filenames
-app1_url = "https://visualizacionpy.streamlit.app/"  # Modify URL for app1
-app2_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app2
-app3_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app3
-app4_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app4
+# URL de la aplicación
+app1_url = "https://visualizacionpy.streamlit.app/"
 
-html_string = f"""
-<div style="display: flex; justify-content: center;">
-    <a href="{app1_url}" target="_blank"><button>Visualización</button></a>
-    <a href="{app2_url}" target="_blank"><button>Button 2</button></a>
-    <a href="{app3_url}" target="_blank"><button>Button 3</button></a>
-    <a href="{app4_url}" target="_blank"><button>Button 4</button></a>
-</div>
-<style>
-    button {{ margin: 0 10px; }}
-</style>
-"""
-
-st.markdown(html_string, unsafe_allow_html=True)
-
-# Define functions to open other applications
-def open_app1():
-    # Implement logic to open or redirect to app1 (e.g., using webbrowser module)
-    app1_url
-    pass
-
-def open_app2():
-    # Implement logic to open or redirect to app2 (e.g., using webbrowser module)
-    pass
-
-def open_app3():
-    # Implement logic to open or redirect to app3 (e.g., using webbrowser module)
-    pass
-
-def open_app4():
-    # Implement logic to open or redirect to app4 (e.g., using webbrowser module)
-    pass
+# Crear un botón que redirija a la URL especificada
+if st.button('Ir a la visualización'):
+    st.write(f"Redirigiendo a [Visualización]({app1_url})")
+    st.experimental_set_query_params()
+    js_code = f'window.open("{app1_url}");'
+    st.components.v1.html(f'<script>{js_code}</script>', height=0)
