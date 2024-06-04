@@ -41,11 +41,4 @@ siniestros = pd.read_excel(file_path)
 # Visualizar datos
 if st.checkbox("Visualizar datos"):
     st.write(siniestros)
-    
-# Mostrar head o tail del dataset
-if st.checkbox("Ver las primeras o últimas filas del dataset"):
-    option = st.radio("Seleccione una opción:", ("Head", "Tail"))
-    if option == "Head":
-        st.write(siniestros.head())
-    elif option == "Tail":
-        st.write(siniestros.tail())
+
