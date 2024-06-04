@@ -5,7 +5,9 @@
 ![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib)
 ![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
 ![Static Badge](https://img.shields.io/badge/-Streamlit-gray?style=flat&logo=streamlit)
+![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter)
 ![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flat&logo=visual%20studio%20code&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Google_Colab-gray?style=flat&logo=googlecolab)
 
 # <h1 align=center> <strong> **PROYECTO INDIVIDUAL Nº2** </strong> </h1>
 
