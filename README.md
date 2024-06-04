@@ -1,3 +1,12 @@
+
+![Static Badge](https://img.shields.io/badge/PowerBI-gray?style=flat&logo=powerbi)
+![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
+![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas)
+![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib)
+![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
+![Static Badge](https://img.shields.io/badge/-Streamlit-gray?style=flat&logo=streamlit)
+![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flat&logo=visual%20studio%20code&logoColor=white)
+
 # <h1 align=center> <strong> **PROYECTO INDIVIDUAL Nº2** </strong> </h1>
 
 # <h2 align="center"> **Siniestros Viales de la ciudad de Buenos Aires** </h2>
@@ -7,7 +16,6 @@
 </p>
 
 ## **`Índice`**
-- [Índice](#índice)
 - [Introducción ](#introducción-)
 - [Contenido del repositorio ](#contenido-del-repositorio-)
 - [Información de los datos ](#información-de-los-datos-)
