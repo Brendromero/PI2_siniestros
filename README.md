@@ -99,11 +99,13 @@ En el siguiente gráfico podremos observar la cantidad de víctimas totales por 
 
 ## **`Herramientas`** <a name="herramientas"></a>
 
+- Google Colab
 - Pandas
 - Numpy
 - Matplotlib
 - Seaborn
 - Power BI
+- Streamlit
 
 ## **`Elaborador`** <a name="elaborador"></a>
 
