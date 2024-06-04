@@ -60,7 +60,7 @@ st.markdown(f"""
 st.markdown("***")
 
 # Replace with your actual application filenames
-app1_url = "https://visualizacionpy.streamlit.app"  # Modify URL for app1
+app1_url = "https://visualizacionpy.streamlit.app/"  # Modify URL for app1
 app2_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app2
 app3_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app3
 app4_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app4
@@ -82,6 +82,7 @@ st.markdown(html_string, unsafe_allow_html=True)
 # Define functions to open other applications
 def open_app1():
     # Implement logic to open or redirect to app1 (e.g., using webbrowser module)
+    app1_url
     pass
 
 def open_app2():
