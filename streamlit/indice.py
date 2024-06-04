@@ -60,14 +60,14 @@ st.markdown(f"""
 st.markdown("***")
 
 # Replace with your actual application filenames
-app1_url = "http://localhost:8501/path/to/app1.py"  # Modify URL for app1
+app1_url = "https://visualizacionpy.streamlit.app"  # Modify URL for app1
 app2_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app2
 app3_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app3
 app4_url = "http://localhost:8502/path/to/app2.py"  # Modify URL for app4
 
 html_string = f"""
 <div style="display: flex; justify-content: center;">
-    <a href="{app1_url}" target="_blank"><button>Button 1</button></a>
+    <a href="{app1_url}" target="_blank"><button>Visualización</button></a>
     <a href="{app2_url}" target="_blank"><button>Button 2</button></a>
     <a href="{app3_url}" target="_blank"><button>Button 3</button></a>
     <a href="{app4_url}" target="_blank"><button>Button 4</button></a>
